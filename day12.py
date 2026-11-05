@@ -1,4 +1,4 @@
-ef countdown(n):
+def countdown(n):
     # 1. Base Case: stop when n reaches 0
     if n <= 0:
         print("Blastoff!")
