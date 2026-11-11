@@ -9,3 +9,16 @@ while n>0 :
         print(even+digit)
     else:
         print(odd+digit)
+    n = n//10
+
+
+n  = int(input())
+
+min_d = 9
+
+while n > 0 :
+    digit = n % 10
+    if digit < min_d:
+        min_d=digit 
+    n = n//10 
+print(min_d)
